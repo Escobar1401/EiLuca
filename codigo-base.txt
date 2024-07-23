@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Reddit+Mono:wght@200..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Reddit Mono", monospace;
+}
+body{
+    background-color: rgb(24, 24, 24);
+}
+header{
+    background-color: rgb(0, 132, 255);;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.header__icon{
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+}
+.header__title{
+    font-size: 50px;
+    margin: auto;
+    color:black;
+    text-shadow: 1px  0px 0px white,
+               0px  1px 0px white,
+              -1px  0px 0px white,
+               0px -1px 0px white;
+}
+.header__nav{
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header__nav__ul{
+    list-style: none;
+}
+.header__nav__ul__li__a__button{
+    height: 60px;
+    width: 90px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+.header__nav__ul__li__a__button:hover{
+    height: 65px;
+    width: 95px;
+    margin: 10px;
+    background-color: #f0cd5d;
+    color: black;
+    font-size: 25px;
+}
+
+/* celular 480px */
+@media screen and (max-width:480px){
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Reddit+Mono:wght@200..900&display=swap');
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: "Reddit Mono", monospace;
+    }
+    body{
+        background-color: rgb(24, 24, 24);
+    }
+    header{
+        background-color: rgb(0, 132, 255);;
+        display: flex;
+        width: 100%;
+        height: 100px;
+        border-bottom: 2px solid black;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__icon{
+        height: 80px;
+        width: 80px;
+        margin: 5px;
+    }
+    .header__title{
+        font-size: 40px;
+        margin: auto;
+        color:black;
+        text-shadow: 1px  0px 0px white,
+                0px  1px 0px white,
+                -1px  0px 0px white,
+                0px -1px 0px white;
+    }
+    .header__nav{
+        margin: 5px;
+        font-size: 15px;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .header__nav__ul{
+        list-style: none;
+    }
+}
+
+/* Tablet 481px - 768px */
+@media screen and (min-width:481px) and (max-width:768px){
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Reddit+Mono:wght@200..900&display=swap');
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: "Reddit Mono", monospace;
+    }
+    body{
+        background-color: rgb(24, 24, 24);
+    }
+    header{
+        background-color: rgb(0, 132, 255);
+        display: flex;
+        width: 100%;
+        height: 100px;
+        border-bottom: 2px solid black;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__icon{
+        height: 80px;
+        width: 80px;
+        margin: 5px;
+    }
+    .header__title{
+        font-size: 40px;
+        margin: auto;
+        color:black;
+        text-shadow: 1px  0px 0px white,
+                    0px  1px 0px white,
+                    -1px  0px 0px white,
+                    0px -1px 0px white;
+    }
+    .header__nav{
+        margin: 5px;
+        font-size: 15px;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .header__nav__ul{
+        list-style: none;
+    }
+    
+}
+
+/* PC 769px - 1279px */
+@media screen and (min-width:769px) and (max-width:1279px){
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Reddit+Mono:wght@200..900&display=swap');
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: "Reddit Mono", monospace;
+    }
+    body{
+        background-color: rgb(24, 24, 24);
+    }
+    header{
+        background-color: rgb(0, 132, 255);
+        display: flex;
+        width: 100%;
+        height: 100px;
+        border-bottom: 2px solid black;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__icon{
+        height: 80px;
+        width: 80px;
+        margin: 5px;
+    }
+    .header__title{
+        font-size: 40px;
+        margin: auto;
+        color:black;
+        text-shadow: 1px  0px 0px white,
+                    0px  1px 0px white,
+                    -1px  0px 0px white,
+                    0px -1px 0px white;
+    }
+    .header__nav{
+        margin: 5px;
+        font-size: 15px;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .header__nav__ul{
+        list-style: none;
+    }
+}
+
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>titulo</title>
+    <link rel="stylesheet" href="./css/titulo.css">
+</head>
+<body>
+    <header>
+        <img class="header__icon" src="../img/motivacion.png" alt="logo de Web EIF">
+        <h1 class="header__title">EIF Web</h1>
+        <nav class="header__nav">
+            <ul class="header__nav__ul">
+                <li class="header__nav__ul__li">
+                    <a class="header__nav__ul__li__a" href="../index.html">
+                        <button class="header__nav__ul__li__a__button"><strong>Atrás</strong></button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    </body>
+</html>
